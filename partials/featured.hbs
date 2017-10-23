@@ -1,0 +1,12 @@
+{{#get "posts" filter="featured:true" limit="3" as |featured|}}
+<section class="posts featured-posts">
+  <h3>Featured posts</h3>
+  <ol>
+    {{#foreach featured}}
+    <li class="post"><a href="{{url}}">{{title}}</a></li>
+    {{/foreach}}
+  </ol>
+</section>
+{{else}}
+<p>No featured posts...</p>
+{{/get}}

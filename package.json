@@ -1,0 +1,17 @@
+{
+  "name": "mess",
+  "version": "0.0.1",
+  "description": "Theme for food blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "onchange 'assets/**/*.scss' -i -- npm run build:css",
+    "build:css": "node-sass ./assets/sass -o ./assets/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.5.1",
+    "onchange": "^3.2.1"
+  }
+}
