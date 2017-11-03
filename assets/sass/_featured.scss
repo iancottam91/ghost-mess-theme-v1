@@ -1,0 +1,21 @@
+.featured-posts {
+  .post{
+    margin: 0 auto 2rem;
+    padding-bottom: 2rem;
+    margin-left: 0;
+    list-style: none;
+  }
+  ul {
+    padding-left: 0;
+    a {
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
