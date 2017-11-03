@@ -2768,8 +2768,19 @@ main .post {
 main .post-meta__publish-details {
   margin-bottom: 1rem; }
 
-.kg-card-markdown p:first-child {
-  background: pink; }
+.kg-card-markdown blockquote {
+  border-left: 0; }
+  .kg-card-markdown blockquote p {
+    border: 1px solid lightgrey;
+    border-left: 0;
+    border-right: 0;
+    padding: 1rem; }
 
 .post-date {
   text-transform: capitalize; }
+
+.post-template .post-meta {
+  margin-top: 5px; }
+
+.post-template .post-header {
+  margin-bottom: 1.4rem; }

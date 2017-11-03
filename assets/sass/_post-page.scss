@@ -1,9 +1,21 @@
 .kg-card-markdown
 {
-  p:first-child{
-    background: pink;
+  blockquote{
+    border-left: 0;
+    p{
+      border: 1px solid lightgrey;
+      border-left: 0;
+      border-right: 0;
+      padding: 1rem;
+    }
   }
 }
 .post-date{
   text-transform: capitalize;
+}
+.post-template .post-meta {
+  margin-top: 5px;
+}
+.post-template .post-header{
+  margin-bottom: 1.4rem;
 }
