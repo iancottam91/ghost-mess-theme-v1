@@ -8,10 +8,17 @@
     "watch:css": "onchange 'assets/**/*.scss' -i -- npm run build:css",
     "build:css": "node-sass ./assets/sass -o ./assets/css"
   },
-  "author": "",
+  "author": {
+    "email": "icottam@msn.com"
+  },
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.5.1",
+    "node-sass": "^4.5.1"
+  },
+  "config": {
+    "posts_per_page": 10
+  },
+  "devDependencies": {
     "onchange": "^3.2.1"
   }
 }
