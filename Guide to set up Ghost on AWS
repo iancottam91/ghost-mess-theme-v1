@@ -1,0 +1,13 @@
+Guide to set up on AWS
+
+Great install instructions
+https://medium.com/@robmadd3n/create-a-professional-blog-with-aws-and-ghost-56fb357f643
+
+Upload a theme - just zip it up and upload it through the admin section in ghost
+
+Setting a theme as a sub module:
+http://dougphung.com/2015/01/26/git-submodules-and-the-floofy-ghost-theme/
+
+Upgrading to V1:
+https://docs.ghost.org/docs/install-local#section-install-ghost-cli
+(excellent guide!)

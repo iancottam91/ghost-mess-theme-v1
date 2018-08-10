@@ -1,0 +1,7 @@
+COPY images:
+
+scp -r -i key.pem 2017 ubuntu@ec2-54-229-12-223.eu-west-1.compute.amazonaws.com:/home/bitnami
+
+ssh -i key.pem ubuntu@ec2-54-229-12-223.eu-west-1.compute.amazonaws.com
+
+app lives at /opt/bitnami/apps/ghost/htdocs
